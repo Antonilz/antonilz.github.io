@@ -1,0 +1,80 @@
+body {
+  margin: 0 auto;
+  width: 550px;
+  font-size: 24px;
+}
+
+header {
+  margin: 20px 0px 20px 0px;
+  width: inherit;
+}
+
+#add_item {
+  display: flex;
+  justify-content: center;
+  height: 75px;
+}
+
+header input {
+  background: #f1f1f1;
+  box-shadow: 0 3px 0 0 rgba(0,0,0.1);
+  border: 3px;
+  padding: 15px 20px 15px 20px;
+  outline: none;
+  font-size: inherit;
+  width: 475px;
+}
+
+#add_item_button {
+  background: #fff;
+  box-shadow: none;
+  outline: none;
+  font-size: inherit;
+  width: 75px;
+  border: 2px solid black;
+}
+
+#add_item_button:hover {
+  background: #4CAF50;
+}
+
+#list {
+  margin-bottom: 24px;
+  display: block;
+  list-style:none;
+  border: 2px solid black;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+li p {
+  text-align: left;
+  margin-left: 20px;
+}
+
+li:hover {
+  background: #ddd;
+}
+
+.remove_button {
+  font-size: 34px;
+  height: 75px;
+  width: 75px;
+  background: #fff;
+  box-shadow: none;
+  outline: none;
+  border-left: 2px solid black;
+}
+
+.remove_button:hover {
+  background: #f44336;
+}
